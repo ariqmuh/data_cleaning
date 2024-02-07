@@ -25,9 +25,20 @@ To run this notebook, you will need to have Python installed on your system, alo
 
 ### Installation
 
-1. Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
-2. Install Jupyter by running: pip install notebook
-3. Clone this repository or download the notebook to your local machine.
-4. Open your terminal or command prompt and navigate to the directory containing the notebook.
-5. Start Jupyter Notebook or JupyterLab:
-6. Navigate to the notebook file in the Jupyter interface and open it.
+1. **Check Python Installation:**
+   - Verify Python installation by running `python --version` in your terminal or command prompt. If Python is not installed, download it from [python.org](https://www.python.org/downloads/).
+
+2. **Install Jupyter:**
+   - Install Jupyter Notebook by running the command `pip install notebook`.
+
+3. **Prepare the Environment:**
+   - Clone this repository or download the notebook to your local machine.
+
+4. **Navigate to Your Notebook:**
+   - Open your terminal or command prompt and navigate to the directory containing the notebook.
+
+5. **Start Jupyter Notebook or JupyterLab:**
+   - Run the command `jupyter notebook` or `jupyter lab`, depending on which application you're using.
+
+6. **Open the Notebook:**
+   - Navigate to the notebook file in the Jupyter interface and open it to start your data cleaning process.
