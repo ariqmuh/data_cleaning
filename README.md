@@ -2,11 +2,15 @@
 
 ## Overview
 
-This Jupyter notebook is designed for analyzing and visualizing the menu performance data from GoBiz and Grab Merchant. It includes data cleaning and preprocessing.
+This Jupyter notebook is designed for data cleaning and preprocessing the menu performance data from GoBiz and Grab Merchant invoices. 
 
 ## Features
 
-- Data cleaning and preprocessing.
+- **Remove Unnecessary Words:** Cleansing the dataset of superfluous words that add noise rather than value to the analysis.
+- **Replace Misspelled Words:** Correcting common spelling errors to ensure consistency and accuracy in the data. For instance, correcting "chiken" to "chicken" in menu item descriptions.
+- **Date Formatting:** Standardizing date formats across the dataset to facilitate time series analysis and reporting.
+- **Remove Unnecessary Columns:** Identifying and eliminating columns that do not contribute to the analysis objectives, such as redundant information or irrelevant details, to streamline the dataset.
+  
 
 ## Setup
 
